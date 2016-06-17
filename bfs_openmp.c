@@ -1,8 +1,9 @@
 /*
 simple parallel bfs implentation using openmp
 matrix input in the form of adjcency matrix
+you can verify the difference int the time by running it with out pragma omp for
 */
-#include <curses.h>
+//#include <curses.h>
 #include<stdio.h>
 #include <omp.h>
 int a[20][20],q[20],visited[20],n,i,j,f=0,r=-1;
